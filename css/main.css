@@ -1,10 +1,16 @@
 html {
   box-sizing: border-box;
   line-height: 1.5;
+  font-family: "Open Sans", sans-serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+body {
+  background-color: #f2f2f2;
+  margin: auto 1.5rem;
 }
 
 section {
@@ -13,8 +19,63 @@ section {
 
 h1 {
   text-align: center;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+h3 {
+  font-weight: normal;
+  font-style: italic;
+  font-size: .875rem;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
 }
 
 .img {
   width: 100px;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  padding: .75rem;
+}
+
+.btn {
+  display: block;
+  padding: .25rem;
+  background-color: #333;
+  color: #fff;
+  border: 3px solid #333;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+/* Specific div 1 2 3 4 */
+
+.one {
+  background-color: #e2e2e2;
+}
+
+.two {
+  background-color: #ccc;
+}
+
+.three {
+  background-color: #aaa;
+}
+
+.four {
+  background-color: #999;
 }
