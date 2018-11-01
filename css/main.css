@@ -10,7 +10,7 @@ html {
 
 body {
   background-color: #f2f2f2;
-  margin: auto 1.5rem;
+  margin: 1.5rem;
 }
 
 section {
@@ -32,6 +32,7 @@ h3 {
   font-weight: normal;
   font-style: italic;
   font-size: .875rem;
+  margin: 0;
 }
 
 img {
@@ -48,18 +49,31 @@ img {
 .section {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   width: 25%;
   padding: .75rem;
+}
+
+.section h2 {
+  flex-grow: 1;
 }
 
 .btn {
   display: block;
   padding: .25rem;
   background-color: #333;
-  color: #fff;
   border: 3px solid #333;
   border-radius: 8px;
   text-decoration: none;
+}
+
+.btn-small {
+  color: #fff;
+}
+
+.btn:hover, .btn-small:hover {
+  background-color: #000;
+  border-color: #000;
 }
 
 /* Specific div 1 2 3 4 */
